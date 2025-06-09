@@ -1,0 +1,12 @@
+* source EX3_INI
+R_R1         N03499 N03257  2k TC=0,0 
+R_R2         N03257 N03272  2k TC=0,0 
+R_R3         N03272 N03281  10k TC=0,0 
+R_R4         N03281 N03293  1k TC=0,0 
+R_R5         N03293 N03268  2k TC=0,0 
+R_R9         N03281 N03268  6k TC=0,0 
+R_R6         N03272 N03268  6k TC=0,0 
+R_R10         N03257 N03268  6k TC=0,0 
+R_R8         N03257 0  4k TC=0,0 
+R_R7         N03268 0  9k TC=0,0 
+I_I1         N03499 0 DC 18mAdc  

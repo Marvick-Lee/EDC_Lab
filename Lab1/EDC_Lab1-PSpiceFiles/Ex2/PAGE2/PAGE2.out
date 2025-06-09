@@ -1,0 +1,94 @@
+
+**** 11/01/22 23:15:20 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-PAGE2"  [ c:\00_disk_d\00_hcmut\subject\221\edc\lab1\edc_lab1-PSpiceFiles\Ex2\PAGE2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "PAGE2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex2.net" 
+
+
+
+**** INCLUDING Ex2.net ****
+* source EX3_INI
+R_R1         N05676 N05713  2 TC=0,0 
+R_R2         N05713 N05734  3 TC=0,0 
+R_R3         N05734 N05791  4 TC=0,0 
+R_R4         N05791 N05787  5 TC=0,0 
+R_R5         N05787 N05701  3 TC=0,0 
+R_R6         N05734 N05701  4 TC=0,0 
+R_R7         N05713 N05701  6 TC=0,0 
+R_R8         N05701 0  1 TC=0,0 
+V_V1         N05676 0 12Vdc
+
+**** RESUMING PAGE2.cir ****
+.END
+
+**** 11/01/22 23:15:20 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-PAGE2"  [ c:\00_disk_d\00_hcmut\subject\221\edc\lab1\edc_lab1-PSpiceFiles\Ex2\PAGE2.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N05676)   12.0000 (N05701)    2.0000 (N05713)    8.0000 (N05734)    5.0000     
+
+(N05787)    2.7500 (N05791)    4.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.000E+00
+
+    TOTAL POWER DISSIPATION   2.40E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/01/22 23:15:20 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-PAGE2"  [ c:\00_disk_d\00_hcmut\subject\221\edc\lab1\edc_lab1-PSpiceFiles\Ex2\PAGE2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .34
+

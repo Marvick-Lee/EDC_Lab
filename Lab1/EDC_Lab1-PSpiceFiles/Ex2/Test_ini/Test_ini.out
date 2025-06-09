@@ -1,0 +1,119 @@
+
+**** 10/29/22 10:32:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex2\Test_ini.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Test_ini.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex2.net" 
+
+
+
+**** INCLUDING Ex2.net ****
+* source EX3_INI
+R_R7         N00172 N00165  6 TC=0,0 
+V_V1         N00158 0 12Vdc
+R_R8         0 N00172  1 TC=0,0 
+R_R1         N00158 N00165  2 TC=0,0 
+R_R2         N00165 N00400  3 TC=0,0 
+R_R6         N00172 N00400  4 TC=0,0 
+R_R3         N00413 N00400  4 TC=0,0 
+R_R4         N00413 N00413  5 TC=0,0 
+R_R5         N00172 N00413  3 TC=0,0 
+V_V3         N01173 0 12Vdc
+R_R9         N01668 N01173  2 TC=0,0 
+R_R10         0 N01181  1 TC=0,0 
+R_R11         N01181 N01668  6 TC=0,0 
+R_R12         N01668 N01349  3 TC=0,0 
+R_R13         N01345 N01349  4 TC=0,0 
+R_R14         N01341 N01345  5 TC=0,0 
+R_R15         N01181 N01341  3 TC=0,0 
+R_R16         N01181 N01349  4 TC=0,0 
+R_R20         N03925 N03793  6 TC=0,0 
+V_V4         N03783 0 12Vdc
+R_R21         N03925 N03807  4 TC=0,0 
+R_R23         0 N03925  1 TC=0,0 
+R_R24         N03925 N03821  3 TC=0,0 
+R_R19         N03821 N03807  4 TC=0,0 
+R_R18         N03793 N03807  3 TC=0,0 
+R_R22         N03821 N03821  5 TC=0,0 
+R_R17         N03783 N03793  2 TC=0,0 
+
+**** RESUMING Test_ini.cir ****
+.END
+
+**** 10/29/22 10:32:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex2\Test_ini.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00158)   12.0000 (N00165)    7.9197 (N00172)    2.0402 (N00400)    4.7390     
+
+(N00413)    3.1968 (N01173)   12.0000 (N01181)    2.0000 (N01341)    2.7500     
+
+(N01345)    4.0000 (N01349)    5.0000 (N01668)    8.0000 (N03783)   12.0000     
+
+(N03793)    7.9197 (N03807)    4.7390 (N03821)    3.1968 (N03925)    2.0402 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.040E+00
+    V_V3        -2.000E+00
+    V_V4        -2.040E+00
+
+    TOTAL POWER DISSIPATION   7.30E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/22 10:32:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex2-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex2\Test_ini.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .70
+  Total job time (using Solver 1)   =         .36
+

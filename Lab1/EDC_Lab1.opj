@@ -1,0 +1,152 @@
+(ExpressProject "EDC_Lab1"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2022 S008-[11/09/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File "C:\Users\Le HUy\Desktop\ex3_ini.DSN"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\edc_lab1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex2\ex2.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex3\ex3.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex6\ex6.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex7\ex7.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex8\ex8.net"
+      (Type "Report"))
+    (File ".\edc_lab1-pspicefiles\ex9\ex9.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex1\test.sim"
+        (DisplayName "Ex1-Test")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex1\test1.sim"
+        (DisplayName "Ex1-Test1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex1\testex1.sim"
+        (DisplayName "Ex1-TestEx1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex2\test_ini.sim"
+        (DisplayName "Ex2-Test_ini")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex3\test_ini.sim"
+        (DisplayName "Ex3-Test_ini")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex2\page2.sim"
+        (DisplayName "Ex2-PAGE2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex3\ex_03_sim.sim"
+        (DisplayName "Ex3-Ex_03_sim")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex3\biaspoint.sim"
+        (DisplayName "Ex3-BiasPoint")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex6\biaspoint.sim"
+        (DisplayName "Ex6-BiasPoint")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex7\test.sim"
+        (DisplayName "Ex7-Test")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex8\biaspoint.sim"
+        (DisplayName "Ex8-BiasPoint")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\edc_lab1-pspicefiles\ex9\biaspoint.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\edc_lab1-pspicefiles\ex9\biaspoint.sim"
+        (DisplayName "Ex9-BiasPoint")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "Le HUy")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Users\Le HUy\Desktop\ex3_ini.DSN")
+      (Path "Design Resources" "C:\Users\Le HUy\Desktop\ex3_ini.DSN" "Ex9")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" "C:\Users\Le HUy\Desktop\ex3_ini.DSN" "Ex9"
+         "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 539"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 884 24 557")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\LE HUY\DESKTOP\EX3_INI.DSN")
+      (Schematic "Ex9")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (G
+      (FullPartName "G.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))))

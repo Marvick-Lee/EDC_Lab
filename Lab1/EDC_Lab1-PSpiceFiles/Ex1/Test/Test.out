@@ -1,0 +1,54 @@
+
+**** 10/28/22 13:04:24 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Test"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\SCHEMATIC1\Test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EDC_LAB1
+R_R1         N00145 N00152  100 TC=0,0 
+R_R2         N00152 N00156  200 TC=0,0 
+R_R3         N00170 N00152  200 TC=0,0 
+R_R4         N00163 N00170  100 TC=0,0 
+V_V1         N00156 N00163 6Vdc
+V_V2         N00145 N00170 3Vdc
+
+**** RESUMING Test.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00145 is floating
+
+ERROR(ORPSIM-15142): Node N00152 is floating
+
+ERROR(ORPSIM-15142): Node N00156 is floating
+
+ERROR(ORPSIM-15142): Node N00170 is floating
+
+ERROR(ORPSIM-15142): Node N00163 is floating
+

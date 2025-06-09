@@ -1,0 +1,95 @@
+
+**** 10/29/22 10:00:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex3-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex3\Test_ini.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Test_ini.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex3.net" 
+
+
+
+**** INCLUDING Ex3.net ****
+* source EDC_LAB1
+R_R3         N01251 N00341  10k TC=0,0 
+I_I1         0 N00294 DC 18Adc  
+R_R8         0 N00301  4k TC=0,0 
+R_R1         N00294 N00301  2k TC=0,0 
+R_R10         N00348 N00301  6k TC=0,0 
+R_R9         N00348 N01251  6k TC=0,0 
+R_R4         N01331 N01251  1k TC=0,0 
+R_R5         N01331 N00348  2k TC=0,0 
+R_R7         0 N00348  9k TC=0,0 
+R_R6         N00348 N00341  6k TC=0,0 
+R_R2         N00301 N00341  2k TC=0,0 
+
+**** RESUMING Test_ini.cir ****
+.END
+
+**** 10/29/22 10:00:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex3-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex3\Test_ini.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00294) 90.00E+03 (N00301) 54.00E+03 (N00341) 49.50E+03 (N00348) 40.50E+03     
+
+(N01251) 42.00E+03 (N01331) 41.50E+03 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/22 10:00:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex3-Test_ini"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex3\Test_ini.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .34
+
