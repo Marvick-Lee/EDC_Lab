@@ -1,0 +1,89 @@
+
+**** 11/09/22 17:48:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex7-Test"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex7\Test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex7.net" 
+
+
+
+**** INCLUDING Ex7.net ****
+* source EX3_INI
+V_V1         N00889 0 12Vdc
+R_R2         N00667 N00589  2k TC=0,0 
+R_R3         N00673 N00589  3k TC=0,0 
+R_R4         0 N00667  4k TC=0,0 
+R_R5         0 N00673  9k TC=0,0 
+R_R1         N00589 N00889  6k TC=0,0 
+
+**** RESUMING Test.cir ****
+.END
+
+**** 11/09/22 17:48:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex7-Test"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex7\Test.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00589)    4.8000 (N00667)    3.2000 (N00673)    3.6000 (N00889)   12.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.200E-03
+
+    TOTAL POWER DISSIPATION   1.44E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/09/22 17:48:14 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex7-Test"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex7\Test.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .38
+

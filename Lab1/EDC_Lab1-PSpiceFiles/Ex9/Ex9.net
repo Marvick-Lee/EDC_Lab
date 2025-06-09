@@ -1,0 +1,11 @@
+* source EX3_INI
+V_V1         N00191 0 10Vdc
+R_R1         N00191 N00170  12 TC=0,0 
+V_V2         N00243 0 4Vdc
+R_R2         N00170 N00250  3.5556 TC=0,0 
+X_H1    N00170 N00243 N00250 0 Ex9_H1 
+
+.subckt Ex9_H1 1 2 3 4  
+H_H1         3 4 VH_H1 3
+VH_H1         1 2 0V
+.ends Ex9_H1

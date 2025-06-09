@@ -1,0 +1,95 @@
+
+**** 11/09/22 22:55:19 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex9-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex9\BiasPoint.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "BiasPoint.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex9.net" 
+
+
+
+**** INCLUDING Ex9.net ****
+* source EX3_INI
+V_V1         N00191 0 10Vdc
+R_R1         N00191 N00170  12 TC=0,0 
+V_V2         N00243 0 4Vdc
+R_R2         N00170 N00250  3.5556 TC=0,0 
+X_H1    N00170 N00243 N00250 0 Ex9_H1 
+
+.subckt Ex9_H1 1 2 3 4  
+H_H1         3 4 VH_H1 3
+VH_H1         1 2 0V
+.ends Ex9_H1
+
+**** RESUMING BiasPoint.cir ****
+.END
+
+**** 11/09/22 22:55:19 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex9-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex9\BiasPoint.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00170)    4.0000 (N00191)   10.0000 (N00243)    4.0000 (N00250)  -11.9990 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-01
+    V_V2        -4.000E+00
+    X_H1.VH_H1  -4.000E+00
+
+    TOTAL POWER DISSIPATION   2.10E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/09/22 22:55:19 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex9-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex9\BiasPoint.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .36
+

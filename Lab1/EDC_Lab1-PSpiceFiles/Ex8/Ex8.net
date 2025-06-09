@@ -1,0 +1,6 @@
+* source EX3_INI
+V_p5         N00178 0 12Vdc
+R_p3         0 N00163  1.4286 TC=0,0 
+R_p2         N00156 N00163  1 TC=0,0 
+V_p4         N00163 N00178 8Vdc
+V_p1         N00156 0 30Vdc

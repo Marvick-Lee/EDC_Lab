@@ -1,0 +1,7 @@
+* source EX3_INI
+V_V1         N00889 0 12Vdc
+R_R2         N00667 N00589  2k TC=0,0 
+R_R3         N00673 N00589  3k TC=0,0 
+R_R4         0 N00667  4k TC=0,0 
+R_R5         0 N00673  9k TC=0,0 
+R_R1         N00589 N00889  6k TC=0,0 

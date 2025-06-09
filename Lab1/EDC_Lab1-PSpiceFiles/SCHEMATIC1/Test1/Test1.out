@@ -1,0 +1,90 @@
+
+**** 10/28/22 13:05:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Test1"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\SCHEMATIC1\Test1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Test1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EDC_LAB1
+R_R1         N00145 N00152  100 TC=0,0 
+R_R2         N00152 N00156  200 TC=0,0 
+R_R3         0 N00152  200 TC=0,0 
+R_R4         N00163 0  100 TC=0,0 
+V_V1         N00156 N00163 6Vdc
+V_V2         N00145 0 3Vdc
+
+**** RESUMING Test1.cir ****
+.END
+
+**** 10/28/22 13:05:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Test1"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\SCHEMATIC1\Test1.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00145)    3.0000 (N00152)    2.7273 (N00156)    4.9091 (N00163)   -1.0909 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.091E-02
+    V_V2        -2.727E-03
+
+    TOTAL POWER DISSIPATION   7.36E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/28/22 13:05:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Test1"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\SCHEMATIC1\Test1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .39
+

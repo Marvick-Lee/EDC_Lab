@@ -1,0 +1,6 @@
+* source EDC_LAB1
+R_R2         N00529 N00784  4 TC=0,0 
+R_R1         0 N00543  6 TC=0,0 
+V_V1         N00529 0 12Vdc
+V_V2         N00543 N00659 4Vdc
+E_E1         N00784 N00659 0 N00543 2

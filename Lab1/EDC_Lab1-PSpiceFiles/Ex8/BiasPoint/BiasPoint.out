@@ -1,0 +1,90 @@
+
+**** 11/09/22 22:38:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex8-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex8\BiasPoint.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "BiasPoint.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex8.net" 
+
+
+
+**** INCLUDING Ex8.net ****
+* source EX3_INI
+V_p5         N00178 0 12Vdc
+R_p3         0 N00163  1.4286 TC=0,0 
+R_p2         N00156 N00163  1 TC=0,0 
+V_p4         N00163 N00178 8Vdc
+V_p1         N00156 0 30Vdc
+
+**** RESUMING BiasPoint.cir ****
+.END
+
+**** 11/09/22 22:38:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex8-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex8\BiasPoint.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00156)   30.0000 (N00163)   20.0000 (N00178)   12.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_p5        -4.000E+00
+    V_p4        -4.000E+00
+    V_p1        -1.000E+01
+
+    TOTAL POWER DISSIPATION   3.80E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/09/22 22:38:48 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex8-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex8\BiasPoint.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .72
+

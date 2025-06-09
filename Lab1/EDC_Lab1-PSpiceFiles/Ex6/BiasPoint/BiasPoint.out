@@ -1,0 +1,45 @@
+
+**** 11/09/22 17:38:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "Ex6-BiasPoint"  [ C:\00_Disk_D\00_HCMUT\Subject\221\EDC\Lab1\EDC_Lab1-PSpiceFiles\Ex6\BiasPoint.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "BiasPoint.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Ex6.net" 
+
+
+
+**** INCLUDING Ex6.net ****
+* source EX3_INI
+R_R3         N00215 N00193  8.89 TC=0,0 
+R_R2         N00193 N00186  4.44 TC=0,0 
+R_R1         N00231 N00186  13 TC=0,0 
+V_V1         N00231 0 100Vdc
+R_R6         0 N00211  50 TC=0,0 
+R_R5         0 N00215  30 TC=0,0 
+R_R4         N00211 N00193  3.7 TC=0,0 
+
+**** RESUMING BiasPoint.cir ****
+.END
+
