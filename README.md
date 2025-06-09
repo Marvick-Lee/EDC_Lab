@@ -1,5 +1,5 @@
 ## EDC_Lab
-#ELECTRICAL ELECTRONIC CIRCUITS Laboratory Subject
+# ELECTRICAL ELECTRONIC CIRCUITS Laboratory Subject
 
 Reup of subject's project include:
 - Read datasheets, calculate figures.
