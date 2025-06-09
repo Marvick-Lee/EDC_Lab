@@ -1,0 +1,4 @@
+* source EDC LAB 2
+R_R1         N00149 N00130  220 TC=0,0 
+D_D1         N00130 0 Dbreak 
+V_V1         N00149 0 5Vdc
